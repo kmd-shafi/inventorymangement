@@ -1,0 +1,83 @@
+.app_dev{
+    width: auto;
+    height: 100vh;
+}
+.nav_dev{
+    background-color: aliceblue;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_item{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.nav_item li{
+    padding-left: 20px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body_div{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-right: 50px;
+}
+table, td, th {
+    border: 1px solid;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th {
+    height: 70px;
+  }
+  td{
+    height: 50px;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+ .btn{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+ }
+ 
+ .input{
+    padding: 12px 24px;
+    outline: none;
+ }
+
+.dialog-box {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .dialog-content {
+    text-align: center;
+  }
+  
+  .dialog-box h2 {
+    margin-top: 0;
+  }

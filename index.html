@@ -7,7 +7,99 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="app_dev">
+        <div class="nav_dev">
+            <div>
+                <ul class="nav_item">
+                    <li>Home</li>
+                    <li>Welcome</li>
+                    <li>Name</li>
+                </ul>
+            </div>
+            <div style="padding-right: 50px;">
+                <button class="btn">sign out</button>
+            </div>
+        </div>
+
+        <div class="body_div">
+
+            <div style="padding: 50px;">
+                <button class="btn" id="create_btn">Create Item</button>
+            </div>
+
+            <div id="dialog-box" class="dialog-box">
+                <div class="dialog-content">
+                    <form action="">
+                        <div>
+                        <input  class="input" type="text" placeholder="Name">
+                    </div>
+                        <br>
+                        <div>
+                        <input class="input" type="number" placeholder="Price">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <br>
+                        <label class="label">Tag</label>
+                        <select name="fruits" class="btn">
+                            <option value="apple">apple</option>
+                            <option value="banana">banana</option>
+                            <option value="grape">grape</option>
+                            <option value="mangos">mango</option>
+                            <option value="pears">pears</option>
+                            <option value="kiwis">kiwis</option>
+                            <option value="lemons">lemons</option>
+                        </select>
+                    </div>
+                    </form>
+                    <div>
+                  <button id="close-dialog-btn" class="btn">Close</button>
+                  <button class="btn">Submit</button>
+                </div>
+                </div>
+              </div>
+
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <div style="padding-right: 50px;">
+                    <form action="">
+                        <input class="input" type="text">
+                        <button class="btn">search</button>
+                    </form>
+                </div>
+                <div>
+                    <select name="fruits" class="btn">
+                <option value="apple">apple</option>
+                <option value="banana">banana</option>
+                <option value="grape">grape</option>
+                <option value="mangos">mango</option>
+                <option value="pears">pears</option>
+                <option value="kiwis">kiwis</option>
+                <option value="lemons">lemons</option>
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+            <div class="table_dev">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Tag</th>
+                        <th>Action</th>
+                    </tr>
+
+                    <tr>
+                        <td>name</td>
+                        <td>name</td>
+                        <td>name</td>
+                        <td>name</td>
+                    </tr>
+                </table>
+            </div>
+        
+
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>
