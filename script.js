@@ -1,17 +1,14 @@
+const table = document.getElementById('table').getElementsByTagName('tbody')[0];
 
-const dialogBox = document.getElementById('dialog-box');
-const openDialogBtn = document.getElementById('create_btn');
-const closeDialogBtn = document.getElementById('close-dialog-btn');
-
-
-const openDialog = () => {
-    dialogBox.style.display = 'block';
-  };
-  
- 
-  const closeDialog = () => {
-    dialogBox.style.display = 'none';
-  };
-  
-  openDialogBtn.addEventListener('click', openDialog);
-  closeDialogBtn.addEventListener('click', closeDialog);
+fetch('items.json')
+    .then(response => response.json())
+    .then(data => {
+        data.Utensils.forEach((item) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${item.Name}</td>
+                <td>${item.Price}</td>
+            `;
+            table.appendChild(tr);
+        });
+    });

@@ -11,7 +11,7 @@
             "Price": 80
         },
         {
-            "Image": "https://www.istockphoto.com/photos/ledle",
+            "Image": "https://www.istockphoto.com/photos/ladle",
             "Name": "Ladle",
             "Price": 50
         },
@@ -21,91 +21,90 @@
             "Price": 70
         },
         {
-            "Image":"https://www.istockphoto.com/photos/rolling-pin",
+            "Image": "https://www.istockphoto.com/photos/rolling-pin",
             "Name": "Rolling Pin",
             "Price": 20
         }
     ],
-
-    "Stove":[
+    "Stove": [
         {
-            "Image":"https://stock.adobe.com/search?k=gas+cooker",
-            "Name":"Gas Stove",
-            "price":500
+            "Image": "https://stock.adobe.com/search?k=gas+cooker",
+            "Name": "Gas Stove",
+            "Price": 500
         },
         {
-            "Image":"https://www.stovesupermarket.co.uk/collections/acr-stoves/heat-output_medium-5kw-8kw",
-            "Name":"Acr Stove",
+            "Image": "https://www.stovesupermarket.co.uk/collections/acr-stoves/heat-output_medium-5kw-8kw",
+            "Name": "Acr Stove",
             "Price": 1000
         },
         {
-            "Image":"https://www.istockphoto.com/photos/stove",
-            "Name":"Cooker Stove",
-            "price":1500
+            "Image": "https://www.istockphoto.com/photos/stove",
+            "Name": "Cooker Stove",
+            "Price": 1500
         },
         {
-            "Image":"https://www.whirlpool.com/blog/kitchen/types-of-stoves-and-ranges.html",
-            "Name":"whirlpool stove",
-            "Price":2000
+            "Image": "https://www.whirlpool.com/blog/kitchen/types-of-stoves-and-ranges.html",
+            "Name": "Whirlpool Stove",
+            "Price": 2000
         },
         {
-            "Image":"https://www.amazon.in/LPG-Stove/s?k=LPG+Stove",
-            "Name":"LPG Stove",
-            "Price":500
+            "Image": "https://www.amazon.in/LPG-Stove/s?k=LPG+Stove",
+            "Name": "LPG Stove",
+            "Price": 500
         }
     ],
-    "Laptop":[
+    "Laptop": [
         {
-            "Image":"https://www.dell.com/en-us/dfh/lp/outlet",
-            "Name":"Dell",
-            "Price":25000
+            "Image": "https://www.dell.com/en-us/dfh/lp/outlet",
+            "Name": "Dell",
+            "Price": 25000
         },
         {
-            "Image":"https://www.gettyimages.com/photos/acer-laptop",
-            "Name":"Acer",
-            "price":30000
+            "Image": "https://www.gettyimages.com/photos/acer-laptop",
+            "Name": "Acer",
+            "Price": 30000
         },
         {
-            "Image":"https://www.freepik.com/free-photos-vectors/asus-laptop",
-            "Name":"Asus",
-            "price":40000
+            "Image": "https://www.freepik.com/free-photos-vectors/asus-laptop",
+            "Name": "Asus",
+            "Price": 40000
         },
         {
-            "Image":"https://www.ubackup.com/articles/how-to-reimage-a-lenovo-laptop-8523.html",
-            "Name":"Lenovo",
-            "Price":50000
+            "Image": "https://www.ubackup.com/articles/how-to-reimage-a-lenovo-laptop-8523.html",
+            "Name": "Lenovo",
+            "Price": 50000
         },
         {
-            "Image":"https://www.gettyimages.com/photos/apple-laptop",
-            "Name":"Apple",
-            "Price":100000
+            "Image": "https://www.gettyimages.com/photos/apple-laptop",
+            "Name": "Apple",
+            "Price": 100000
         }
     ],
-    "Tv":[
+    "Tv": [
         {
-            "Image":"https://www.tomsguide.com/us/best-tvs,review-2224.html",
-            "Name":"LG",
-            "Price":20000
+            "Image": "https://www.tomsguide.com/us/best-tvs,review-2224.html",
+            "Name": "LG",
+            "Price": 20000
         },
         {
-            "Image":"https://www.tomsguide.com/tvs/tcl-just-unveiled-a-mini-led-tv-that-hits-a-jaw-dropping-brightness-of-6500-nits",
-            "Name":"TCL",
-            "price":30000
+            "Image": "https://www.tomsguide.com/tvs/tcl-just-unveiled-a-mini-led-tv-that-hits-a-jaw-dropping-brightness-of-6500-nits",
+            "Name": "TCL",
+            "Price": 30000
         },
         {
-            "Image":"https://nypost.com/2024/09/05/shopping/shop-the-14-best-tv-deals-from-target-vizio-samsung-tcl-more/",
-            "Name":"Samsung",
-            "Price":40000
+            "Image": "https://nypost.com/2024/09/05/shopping/shop-the-14-best-tv-deals-from-target-vizio-samsung-tcl-more/",
+            "Name": "Samsung",
+            "Price": 40000
         },
         {
-            "Image":"https://www.techradar.com/televisions/sony-bravia9-review",
-            "Name":"Sony",
-            "Price":30000
+            "Image": "https://www.techradar.com/televisions/sony-bravia9-review",
+            "Name": "Sony",
+            "Price": 30000
         },
         {
-            "Image":"https://miot-global.com/tv-sets/",
-            "Name":"Xiaomi",
-            "Price":1000
+            "Image": "https://miot-global.com/tv-sets/",
+            "Name": "Xiaomi",
+            "Price": 10000
         }
     ]
 }
