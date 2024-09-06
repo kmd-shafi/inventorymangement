@@ -43,11 +43,11 @@ table, td, th {
   }
   td{
     height: 50px;
+    text-align: center;
   }
   tr:nth-child(even) {background-color: #f2f2f2;}
 
  .btn{
-    display: inline-block;
     padding: 12px 24px;
     font-size: 16px;
     font-weight: bold;
@@ -60,24 +60,64 @@ table, td, th {
     padding: 12px 24px;
     outline: none;
  }
+  .img{
+    width: 40px;
+    height: 40px;
+    background-color: azure;
+    margin: 20px;
+  }
+  .btn_click_me{
+    margin-left: 50px;
+    padding: 50px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
 
-.dialog-box {
-    display: none; 
+  #dialog-box {
+    height: 500px;
+    width: 400px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #f0f0f0;
-    border-radius: 10px;
+    background-color: #f9f9f9;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   .dialog-content {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  .dialog-box h2 {
-    margin-top: 0;
+  .create_input {
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    box-sizing: border-box;
+  }
+  
+
+  .tags{
+    width: 400px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .create_btn{
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #f2f2f2;
   }

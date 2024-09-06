@@ -23,40 +23,9 @@
 
         <div class="body_div">
 
-            <div style="padding: 50px;">
-                <button class="btn" id="create_btn">Create Item</button>
+            <div class="btn_click_me">
+                <a href="create.html" style="text-decoration: none; color: black;">Create Task</a>
             </div>
-
-            <div id="dialog-box" class="dialog-box">
-                <div class="dialog-content">
-                    <form action="">
-                        <div>
-                        <input  class="input" type="text" placeholder="Name">
-                    </div>
-                        <br>
-                        <div>
-                        <input class="input" type="number" placeholder="Price">
-                    </div>
-                    <div style="margin-bottom: 20px;">
-                        <br>
-                        <label class="label">Tag</label>
-                        <select name="fruits" class="btn">
-                            <option value="apple">apple</option>
-                            <option value="banana">banana</option>
-                            <option value="grape">grape</option>
-                            <option value="mangos">mango</option>
-                            <option value="pears">pears</option>
-                            <option value="kiwis">kiwis</option>
-                            <option value="lemons">lemons</option>
-                        </select>
-                    </div>
-                    </form>
-                    <div>
-                  <button id="close-dialog-btn" class="btn">Close</button>
-                  <button class="btn">Submit</button>
-                </div>
-                </div>
-              </div>
 
             <div style="display: flex; justify-content: center; align-items: center;">
                 <div style="padding-right: 50px;">
@@ -90,16 +59,31 @@
                     </tr>
 
                     <tr>
-                        <td>name</td>
-                        <td>name</td>
-                        <td>name</td>
-                        <td>name</td>
+                        <td style="width: 300px;">
+                            <div style="display: flex; align-items: center;">
+                            <div class="img">
+                            </div>
+                            name
+                        </div>
+                        </td>
+
+                        <td style="width: 300px;">name</td>
+                        <td style="width: 300px;">name</td>
+                        <td style="width: 300px;">
+                            <div style="display: flex; justify-content: center;">
+                            <div style="margin-right: 50px;">
+                                <button class="btn">Edit</button>
+                            </div>
+                            <div>
+                                <button class="btn">Update</button>
+                            </div>
+                        </div>
+                        </td>
                     </tr>
                 </table>
             </div>
-        
-
     </div>
+    
 </body>
 <script src="./script.js"></script>
 </html>
