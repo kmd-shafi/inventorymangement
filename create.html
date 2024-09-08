@@ -9,37 +9,34 @@
 <body>
     <div id="dialog-box" class="dialog-box">
         <div class="dialog-content">
-            <form action="">
+            <form id="myForm" action="">
                 <div>
-                <input  class="create_input" type="text" placeholder="Name">
+                <input  class="create_input" id="Image_URL" type="url" placeholder="Image URL">
                 </div>
                 <br>
                 <div>
-                <input class="create_input" type="number" placeholder="Price">
-            </div>
-            <div style="margin-top:20px; margin-bottom: 80px;">
+                <input  class="create_input" id="Name" type="text" placeholder="Name">
+                </div>
                 <br>
-                <select name="fruits" class="tags">
-                    <option value="apple">apple</option>
-                    <option value="banana">banana</option>
-                    <option value="grape">grape</option>
-                    <option value="mangos">mango</option>
-                    <option value="pears">pears</option>
-                    <option value="kiwis">kiwis</option>
-                    <option value="lemons">lemons</option>
-                </select>
-            </div>
+                <div>
+                <input class="create_input" id="Price" type="number" placeholder="Price">
+                </div>
+                <br>
+                <div>
+                <input class="create_input" id="category" type="text" placeholder="category">
+                </div>
+                <div style="display: flex;">
+                    <div class="btn_click_me">
+                    <a href="./index.html" style="text-decoration: none; color: black;" >Close</a>
+                </div>
+                <div style="padding-left: 20px;">
+              <button class="create_btn" type="submit">Submit</button>
             </form>
-            <div style="display: flex;">
-                <div class="btn_click_me">
-                <a href="./index.html" style="text-decoration: none; color: black;" >Close</a>
-            </div>
-            <div style="padding-left: 20px;">
-          <button class="create_btn">Submit</button>
+
         </div>
         </div>
         </div>
     </div>
 </body>
-<script src="./script.js"></script>
+<script src="./create.js"></script>
 </html>

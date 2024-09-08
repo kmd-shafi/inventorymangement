@@ -1,108 +1,108 @@
 {
     "Utensils": [
         {
-            "Image": "https://www.gettyimages.com/photos/cutting-board",
+            "Image": "https://imgs.search.brave.com/oDLOztBu9EgBYLJ-chKlqRFSCI616jznvexeCKdRya4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE3/ODI5NjU2NC9waG90/by9jdXR0aW5nLWJv/YXJkLW92ZXItdG93/ZWwuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPVhOSU5WaC1q/SWFMcDU4MjVxODhL/UlJOT2I2ckJLbi0t/VHlGM2d2emIxSk09",
             "Name": "Cutting Board",
             "Price": 200
         },
         {
-            "Image": "https://www.istockphoto.com/photos/knife",
+            "Image": "https://media.istockphoto.com/id/874095794/photo/chef-knife.jpg?s=2048x2048&w=is&k=20&c=2dRCnr_gc1RlvNRHkBuUu2MUulA5XuEVCKvtZ9INAMU=",
             "Name": "Knife",
             "Price": 80
         },
         {
-            "Image": "https://www.istockphoto.com/photos/ladle",
+            "Image": "https://media.istockphoto.com/id/854101274/photo/kitchen-ladle-isolated-on-a-white-background.jpg?s=2048x2048&w=is&k=20&c=iC1muTTQuNMjfoiBDUOO1EJ5e5phk2cDUlMZtK0isOI=",
             "Name": "Ladle",
             "Price": 50
         },
         {
-            "Image": "https://www.gettyimages.com/photos/bowl",
+            "Image": "https://media.gettyimages.com/id/1362170304/photo/earthen-bowl-isolated-on-white-background.jpg?s=2048x2048&w=gi&k=20&c=M9G7NSgiNbXBtaopVqAVbV9qiGsAd9ilNAbOiocx3B4=",
             "Name": "Bowl",
             "Price": 70
         },
         {
-            "Image": "https://www.istockphoto.com/photos/rolling-pin",
+            "Image": "https://media.istockphoto.com/id/1395803038/photo/wooden-rolling-pin.jpg?s=2048x2048&w=is&k=20&c=g_JaAr18ZNqetRhUqtgz-XUrAGB7hloQZ0HoMVtOe7E=",
             "Name": "Rolling Pin",
             "Price": 20
         }
     ],
     "Stove": [
         {
-            "Image": "https://stock.adobe.com/search?k=gas+cooker",
+            "Image": "https://t4.ftcdn.net/jpg/01/37/97/33/240_F_137973395_KKmQbs7uSonMzA3msgFF35F8l14VrA81.jpg",
             "Name": "Gas Stove",
             "Price": 500
         },
         {
-            "Image": "https://www.stovesupermarket.co.uk/collections/acr-stoves/heat-output_medium-5kw-8kw",
+            "Image": "https://www.stovesupermarket.co.uk/cdn/shop/products/ACR-ROWANDALE_800x.jpg?v=1628788425",
             "Name": "Acr Stove",
             "Price": 1000
         },
         {
-            "Image": "https://www.istockphoto.com/photos/stove",
+            "Image": "https://media.istockphoto.com/id/1434813792/vector/modern-gas-stove-multi-function-stove-with-touch-menu-and-timer-in-two-views-with-open-and.jpg?s=2048x2048&w=is&k=20&c=hbFG_4HAibmhtajAPJ2W4OTFfVNdUlgreq2uQcBf_uU=",
             "Name": "Cooker Stove",
             "Price": 1500
         },
         {
-            "Image": "https://www.whirlpool.com/blog/kitchen/types-of-stoves-and-ranges.html",
+            "Image": "https://www.whirlpool.com/is/image/content/dam/business-unit/whirlpoolv2/en-us/marketing-content/site-assets/page-content/oc-articles/types-of-stoves-and-ranges-opti/types-of-stoves-img2.jpg?fmt=webp-alpha&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0&scl=1&constrain=fit,1",
             "Name": "Whirlpool Stove",
             "Price": 2000
         },
         {
-            "Image": "https://www.amazon.in/LPG-Stove/s?k=LPG+Stove",
+            "Image": "https://m.media-amazon.com/images/I/71KwjDbQ61S._AC_UL320_.jpg",
             "Name": "LPG Stove",
             "Price": 500
         }
     ],
     "Laptop": [
         {
-            "Image": "https://www.dell.com/en-us/dfh/lp/outlet",
+            "Image": "https://i.dell.com/is/image/DellContent/content/dam/images/products/laptops-and-2-in-1s/inspiron/15-3520-non-touch/in3520nt-cnb-05000ff090-bk.psd?wid=400&hei=400&fmt=jpeg&layer=1&perspective=633,748,4367,748,4346,2850,651,2850&pos=-226,-623&src=is%7BDellContent/content/dam/documents-and-videos/dv2/csbg/en/product-launch/inspiron/inspiron-15-3530-notebook-warlock2/shared-assets/screenfills/inspiron-15-3530-hero-screenfill-gettyimages-1063023042-16x9-ui.psd?size=4000,4000%7D",
             "Name": "Dell",
             "Price": 25000
         },
         {
-            "Image": "https://www.gettyimages.com/photos/acer-laptop",
+            "Image": "https://media.gettyimages.com/id/1234777120/photo/porsche-design-acer-book-rs-laptop.jpg?s=2048x2048&w=gi&k=20&c=lz36NA_BQXtfBYEtSELareGz7GIVZnUoQoi3A1e6iOg=",
             "Name": "Acer",
             "Price": 30000
         },
         {
-            "Image": "https://www.freepik.com/free-photos-vectors/asus-laptop",
+            "Image": "https://img.freepik.com/premium-photo/asus-rog-zephyrus-g14-with-gaming-performance-sleek-portable-design_1240525-90372.jpg?size=626&ext=jpg",
             "Name": "Asus",
             "Price": 40000
         },
         {
-            "Image": "https://www.ubackup.com/articles/how-to-reimage-a-lenovo-laptop-8523.html",
+            "Image": "https://www.ubackup.com/screenshot/en/others/lenovo-laptop.png",
             "Name": "Lenovo",
             "Price": 50000
         },
         {
-            "Image": "https://www.gettyimages.com/photos/apple-laptop",
+            "Image": "https://media.gettyimages.com/id/458620587/photo/macbook-air.jpg?s=612x612&w=0&k=20&c=ceMHCHRAsRjUJ4DCqy_zNd_tMvR0gC_wENixJCHo9eo=",
             "Name": "Apple",
             "Price": 100000
         }
     ],
     "Tv": [
         {
-            "Image": "https://www.tomsguide.com/us/best-tvs,review-2224.html",
+            "Image": "https://cdn.mos.cms.futurecdn.net/c9EmNS8t9HmVFZEpU2vQFo-650-80.jpg.webp",
             "Name": "LG",
             "Price": 20000
         },
         {
-            "Image": "https://www.tomsguide.com/tvs/tcl-just-unveiled-a-mini-led-tv-that-hits-a-jaw-dropping-brightness-of-6500-nits",
+            "Image": "https://cdn.mos.cms.futurecdn.net/2qHnFjQGVKx3Zpnd8Vzm5J-650-80.jpg.webp",
             "Name": "TCL",
             "Price": 30000
         },
         {
-            "Image": "https://nypost.com/2024/09/05/shopping/shop-the-14-best-tv-deals-from-target-vizio-samsung-tcl-more/",
+            "Image": "https://nypost.com/wp-content/uploads/sites/2/2024/09/vizio.jpg?resize=1024,666&quality=75&strip=all",
             "Name": "Samsung",
             "Price": 40000
         },
         {
-            "Image": "https://www.techradar.com/televisions/sony-bravia9-review",
+            "Image": "https://cdn.mos.cms.futurecdn.net/tJkDB2v69TeSzV7jmhEuES-1920-80.jpg.webp",
             "Name": "Sony",
             "Price": 30000
         },
         {
-            "Image": "https://miot-global.com/tv-sets/",
+            "Image": "https://miot-global.com/uploads/CatalogueImage/pv_01_19651_1636352831.jpg",
             "Name": "Xiaomi",
             "Price": 10000
         }
