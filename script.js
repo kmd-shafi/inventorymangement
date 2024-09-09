@@ -1,12 +1,36 @@
-(async () => {
-  const response = await fetch('items.json');
-  const data = await response.json();
-  localStorage.setItem('store', JSON.stringify(data));
-})();
-
 document.addEventListener('DOMContentLoaded', function () {storeTable('All')});
 document.getElementById('category-select').addEventListener('change', function (e) {
   storeTable(e.target.value);
+});
+
+const dialogueBox = document.getElementById('dialogue-box');
+const closeBtn = document.getElementById('close-btn');
+
+
+document.getElementById('data_btn').addEventListener('click', () => {
+  dialogueBox.style.display = 'block';
+});
+
+closeBtn.addEventListener('click', () => {
+  dialogueBox.style.display = 'none';
+});
+
+document.getElementById('fileInput').addEventListener('change', async function(event) {
+  const file = event.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = async function(e) {
+      const data = JSON.parse(e.target.result);
+
+      Object.keys(data).forEach(category => {
+        data[category].forEach((item, index) => {
+          item.id = index + 1;
+        });
+      });
+      localStorage.setItem('store', JSON.stringify(data));
+    };
+    reader.readAsText(file);
+  }
 });
 
 async function storeTable(category) {
@@ -14,7 +38,7 @@ async function storeTable(category) {
     const storedData = localStorage.getItem('store');
     const data = JSON.parse(storedData);
 
-    const table = document.getElementById('table');
+    const table = document.getElementById('table_body');
     table.innerHTML = '';
 
     if (category === 'All') {
@@ -45,7 +69,7 @@ async function storeTable(category) {
               </td>
             `;
             tr.querySelector('.edit-btn').addEventListener('click', () => {
-              console.log(`Edit ${item.Name}`);
+              dialogueBox.style.display = 'block';
             });
 
             tr.querySelector('.delete-btn').addEventListener('click', () => {
@@ -97,4 +121,7 @@ async function storeTable(category) {
     console.error(error);
   }
 }
+
+
+
 

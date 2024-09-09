@@ -26,6 +26,5 @@ form.addEventListener('submit', (e) => {
 
         storeData[category].push(userData);
         localStorage.setItem('store', JSON.stringify(storeData));
-        console.log(storeData);
     }
 });

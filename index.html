@@ -17,7 +17,8 @@
                 </ul>
             </div>
             <div style="padding-right: 50px;">
-                <button class="btn" id="sign_out_btn">sign out</button>
+                <button class="btn" id="data_btn">Data</button>
+                <button class="btn" id="sign_out_btn">Sign Out</button>
             </div>
         </div>
 
@@ -49,16 +50,27 @@
 
             <div class="table_dev">
                 <table id="table">
+                    <thead>
                     <tr>
                         <th>Name</th>
                         <th>Price</th>
                         <th>Tag</th>
                         <th>Action</th>
                     </tr>
+                </thead>
+                <tbody id="table_body">
+
+                </tbody>
                 </table>
             </div>
     </div>
-    
+    <div id="dialogue-box" style="display: none;">
+        <input type="file" id="fileInput" accept=".json" value="C:/Users/shaik/Desktop/js/inventorymangement">
+        <div style="margin-top: 10px;">
+            <button id="close-btn">Close</button>
+        </div>
+      </div>
+
+    <script type="module" src="./script.js"></script>    
 </body>
-<script type="module" src="./script.js"></script>
 </html>
